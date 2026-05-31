@@ -1,0 +1,23 @@
+{
+  "name": "discord-rps-bot",
+  "version": "1.0.0",
+  "description": "Discord bot s příkazem Kámen, Nůžky, Papír",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "slash-commands"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {}
+}
